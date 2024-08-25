@@ -1,13 +1,9 @@
-# Archivo .gitignore para proyecto Java
-
-# Directorios ignorados
 target/
-target/classes/
-!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-# STS
+### STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -16,12 +12,14 @@ target/classes/
 .springBeans
 .sts4-cache
 
-# IntelliJ IDEA
+### IntelliJ IDEA ###
 .idea
+*.iws
 *.iml
 *.ipr
 
-# NetBeans
+### NetBeans ###
+/nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
@@ -30,10 +28,10 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-# VS Code
+### VS Code ###
 .vscode/
 
-# Java
+### Java ###
 *.class
 *.log
 *.ctxt
@@ -47,10 +45,8 @@ build/
 *.rar
 hs_err_pid*
 replay_pid*
-*.tmp
-*.bak
 
-# Maven
+### Maven ###
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -60,7 +56,7 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
-# OS generated files
+### OS generated files ###
 .DS_Store
 .DS_Store?
 ._*
@@ -69,15 +65,12 @@ buildNumber.properties
 ehthumbs.db
 Thumbs.db
 
-# Application Properties
+### Application Properties ###
 src/main/resources/application-*.properties
 src/main/resources/application-*.yml
 !src/main/resources/application.properties
 !src/main/resources/application.yml
 
-# Environment variables
-.env
-
-# Logs
+### Logs ###
 logs/
 *.log

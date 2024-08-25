@@ -1,43 +1,41 @@
-# Blogging Platform API
+ # Blogging Platform API
 
-This project is a RESTful API for a personal blogging platform, developed with Spring Boot. The API allows for basic CRUD operations to manage blog posts.
+Este proyecto es una API RESTful para una plataforma de blogs personal, desarrollada con Spring Boot. La API permite realizar operaciones CRUD básicas para gestionar publicaciones de blog.
 
-## Project Objectives
+## Objetivos del Proyecto
 
-The goal of this project is to help understand and apply the following concepts:
+Este proyecto tiene como objetivo ayudar a comprender y aplicar los siguientes conceptos:
 
-- Creating a RESTful API following best practices and conventions
-- Implementing CRUD operations (Create, Read, Update, Delete)
-- Using common HTTP methods (GET, POST, PUT, PATCH, DELETE)
-- Handling status codes and errors in APIs
-- Working with databases in the context of an API
+- Crear una API RESTful siguiendo las mejores prácticas y convenciones
+- Implementar operaciones CRUD (Crear, Leer, Actualizar y Eliminar)
+- Utilizar métodos HTTP comunes (GET, POST, PUT, PATCH, DELETE)
+- Manejar códigos de estado y errores en APIs
+- Trabajar con bases de datos en el contexto de una API
 
-## Features
+## Funcionalidades
 
-The API allows users to perform the following operations:
+La API permite a los usuarios realizar las siguientes operaciones:
 
-- Create a new blog post
-- Update an existing blog post
-- Delete an existing blog post
-- Retrieve a specific blog post
-- Retrieve all blog posts
-- Filter blog posts by a search term
+- Crear una nueva publicación de blog
+- Actualizar una publicación de blog existente
+- Eliminar una publicación de blog existente
+- Obtener una publicación de blog específica
+- Obtener todas las publicaciones de blog
+- Filtrar publicaciones de blog por un término de búsqueda
 
-## Technologies Used
+## Tecnologías Utilizadas
 
-- Spring Boot 3.3.2
+- Spring Boot v3.3.2
 - Spring Web
 - Spring Data JPA
 - Spring Boot DevTools
 - Maven
+- PostgreSQL v16
 
-## Project Setup
+## Configuración del Proyecto
 
-1. Clone this repository
-2. Ensure you have Java 17 or higher and Maven installed
-3. Configure your database in `src/main/resources/application.properties`
-4. Run `mvn clean install` to install dependencies
-5. The API will be available at `http://localhost:8080`
-
-##
-https://roadmap.sh/projects/blogging-platform-api
+1. Clona este repositorio
+2. Asegúrate de tener instalado Java 17 o superior y Maven
+3. Configura tu base de datos en src/main/resources/application.properties
+4. Ejecuta mvn clean install para instalar las dependencias
+5. La API estará disponible en http://localhost:8080
